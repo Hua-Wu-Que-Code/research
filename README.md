@@ -53,6 +53,16 @@ research/
 └── docs/
 ```
 
+## 快速开始
+
+Fork 或 clone 本仓库后，在仓库根目录打开 Codex，把研究方向告诉它：
+
+```
+我的研究方向是 [在此填写方向]，帮我填写 wiki/overview.md，并完成 TODO.md 中的初始化任务。
+```
+
+Codex 会自动读取 `AGENTS.md` 中的规则，引导你完成初始化。
+
 ## 使用方式
 
 1. 在 `wiki/overview.md` 中填写当前研究方向。
