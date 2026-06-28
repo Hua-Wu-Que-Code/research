@@ -1,0 +1,53 @@
+# 系统和编辑器文件
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Python 相关缓存和构建产物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# 密钥和敏感配置
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# 大型或受版权保护的科研材料
+data/raw/
+data/interim/
+data/processed/
+data/external/
+literature/pdfs/
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+
+# 实验输出
+results/
+logs/
+models/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.safetensors
+wandb/
+mlruns/
+
+# 临时文件
+tmp/
+cache/
+.cache/
